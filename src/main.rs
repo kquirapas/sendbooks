@@ -43,7 +43,7 @@ async fn main() -> anyhow::Result<()> {
 
 async fn index() -> impl IntoResponse {
     let template = IndexTemplate {
-        name: "world",
+        name: "hotdog",
         counter: 0,
     };
     HtmlTemplate(template)

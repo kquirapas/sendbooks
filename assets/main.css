@@ -1,3 +1,74 @@
-.red-text {
-	color: red;
+:root {
+	--palewood: #E8DCDA;
+	--acacia: #93574D;
+	--mahogany: #3E130C;
+
+	--text-color: var(--mahogany);
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: var(--text-color);
+	background: var(--palewood);
+}
+
+h1, h2, h3, h4, h5, p {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+h4 {
+	font-size: 0.8em;
+}
+
+h5 {
+	font-size: 0.4em;
+}
+
+a {
+	color: var(--acacia);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#wrapper {
+	width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#container {
+	padding: 3em;
+	border: 1px solid var(--mahogany);
+	border-radius: 1em;
+}
+
+#author {
+	margin-bottom: 2em;
+}
+
+#built-with {
+	margin-top: 2em;
 }

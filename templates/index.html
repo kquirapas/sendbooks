@@ -1,9 +1,22 @@
 {% extends "base.html" %}
 
-{% block title %}Index{% endblock %}
+{% block title %}sendbooks{% endblock %}
 
 {% block content %}
-	<h1 class="red-text">Howdy! {{name}}</h1>
-	<p>{{counter}}</p>
-	<button>Counter</button>
+	<main id="wrapper">
+		<h1 class="">sendbooks</h1>
+		<p id="author">by <a href="https://kquirapas.com/">Kristian Quirapas</a></p>
+		<div id="container">
+			<div>
+				<p>Send books from your browser to your e-reader!</p>
+				<h3>Usage:</h3>
+				<ol>
+					<li>Go to your e-reader's browser</li>
+					<li>Visit this site: <a href="#">send.kquirapas.com</a></li>
+				</ol>
+			</div>
+		</div>
+		<h4 id="built-with">Built with</a></h4>
+		<h3 class="">Rust 🦀</h3>
+	</main>
 {% endblock %}
